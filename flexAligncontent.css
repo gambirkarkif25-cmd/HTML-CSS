@@ -1,0 +1,33 @@
+h1 {
+  text-align: center;
+  color: blue;
+}
+
+.box {
+  height: 200px;
+  width: 200px;
+  border: solid;
+  display: flex;
+  /* justify-content: center;
+  align-items: center; */
+  flex-wrap: wrap;
+}
+
+.flex-Aligncontent-container {
+  height: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  border: solid;
+  padding: 10px;
+  gap: 10px;
+}
+
+/* align-content: flex-start; */
+/* align-content: flex-end; */
+/* align-content: space-around; */
+/* align-content: space-between; */
+/* align-content: center; */
+/* align-content: stretch;    */
+/* align-content: initial; */
+/* align-content: inherit; */
+align-content: space-evenly;

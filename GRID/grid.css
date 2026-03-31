@@ -1,0 +1,57 @@
+h1{
+    color: red;
+    text-align: center;
+    font-size: 50px;
+}
+
+
+.grid-container {
+  display: grid;
+
+ 
+/* display: inline-grid;  */
+
+  grid-template-columns: 120px auto auto auto;
+  grid-template-columns: minmax(80px, 1fr);
+  grid-template-columns: auto auto auto auto;
+  grid-template-columns: 80px 200px auto auto;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(6, minmax(300px, 2fr));
+
+  gap: 50px;
+
+  /* row-gap: 100px;
+    column-gap: 50px;
+    */
+}
+
+.box {
+  height: 150px;
+  width: 150px;
+  border: solid;
+  font-size: 40px;
+
+  /* soultion 1 */
+  /* box-sizing: border-box; */
+   /* text-align: center; */
+    /* padding-top: 45px; */ 
+
+ /* solution2  */
+    /* text-align: center; */
+    /* line-height: 100px; */
+ 
+    /* solution 3  */
+    /* display: grid; */
+    /* justify-content: center; */
+    /* align-items: center; */ */
+
+/* solution4  */
+    /* display: flex; */
+    /* justify-content: center;       */
+
+  /* solution 5  */
+  /* display: grid; */
+  /* place-items: center; */
+}
+    
